@@ -28,6 +28,7 @@ int main(int argc, char **argv) {
 		}
 
 		fprintf(stderr, "予期しない文字列です: '%c'\n", *p);
+		return 1;
 	}
   printf("  ret\n");
   return 0;
